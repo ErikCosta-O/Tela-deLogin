@@ -1,0 +1,38 @@
+button{
+    display: flex;
+    justify-content: center;
+    background: #fbc55f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000;
+    border: 0.2vh solid black;
+    border-radius: 0.8vh;
+    box-shadow: 0.1em 0.1em #000;
+    cursor: pointer;
+    height: 40px;
+}
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #000;
+}
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #000;
+}
+#criar a{
+    color: #000;
+    text-decoration: none;
+}
+#entrar a{
+    color: #000;
+    text-decoration: none;
+}.bt1{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+/*css botão Acessar*/
